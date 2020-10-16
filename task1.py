@@ -1,4 +1,4 @@
-import random #importing random 
+import random  # importing package random 
 
 def is_prime(n):# defining is_prime function 
     if n>1:
@@ -13,6 +13,7 @@ def is_prime(n):# defining is_prime function
 for i in range(0,6): # Loop for 6 numbers
     n=random.randrange(1,101) # generating 6 random numbers between 1 and 101, so 1 and 100 are included. 
     ans=is_prime(n)# applying n in the is_prime function and assigning its value to ans.
+    
     if ans==True: # if is_prime returns true 
         print('The random number',n,'is a prime number')
     else:# if is_prime returns false
